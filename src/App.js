@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LaunchesList from "./Components/LaunchesList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col bg-gradient-to-r from-violet-500 to-fuchsia-500 h-screen w-screen relative ">
+      <p className="self-center text-5xl my-3 font-bold text-white">
+        SpaceX Launches App
+      </p>
+      <LaunchesList />
     </div>
   );
 }
