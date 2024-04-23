@@ -1,0 +1,16 @@
+.scroll-overflow::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.scroll-overflow::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the track */
+}
+
+.scroll-overflow::-webkit-scrollbar-thumb {
+  background: #991ffd; /* Set the color of the scrollbar thumb */
+  border-radius: 4px; /* Set the border radius of the scrollbar thumb */
+}
+
+.scroll-overflow::-webkit-scrollbar-thumb:hover {
+  background: #d53f8c; /* Set the color of the scrollbar thumb on hover */
+}
