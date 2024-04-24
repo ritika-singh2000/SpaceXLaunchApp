@@ -18,7 +18,6 @@ const LaunchesList = () => {
     setLaunchesList(json);
     setFilteredData(json);
     setShowLoader(false);
-    console.log(json);
   };
 
   useEffect(() => {
